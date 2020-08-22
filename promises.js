@@ -1,10 +1,14 @@
+console.log("App started");
+let user;
 fetch("https://api.randomuser.me")
   .then((response) => {
     return response.json();
   })
   .then((data) => {
-    const user = data.results[0];
+    user = data.results[0];
   });
+console.log(user);
+console.log("App closed");
 
 // document
 //   .querySelector(".app__user__image")
