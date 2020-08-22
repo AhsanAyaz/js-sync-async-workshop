@@ -5,10 +5,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JS Sync Async</title>
+  <style>
+    html, body {
+      font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .app {
+      max-width: 640px;
+      height: auto;
+      margin: 20px auto;
+    }
+    .app__user {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .app__user__image {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+    }
+  </style>
 </head>
 <body>
   <!-- <script type="text/javascript" src="./app.js"></script> -->
   <!-- <script type="text/javascript" src="./basic-function.js"></script> -->
   <!-- <script type="text/javascript" src="./callbacks.js"></script> -->
+
+  <!-- <script type="text/javascript" src="./promises.js"></script> -->
+  <main class="app">
+    <div class="app__user">
+      <img class="app__user__image">
+      <h2 class="app__user__heading">Hello, my name is</h2>
+      <h3 class="app__user__name"></h3>
+    </div>
+  </main>
 </body>
 </html>
